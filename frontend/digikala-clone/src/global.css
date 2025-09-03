@@ -1,0 +1,29 @@
+/* Reset default styles */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Vazirmatn:wght@100..900&display=swap');
+@font-face {
+    font-family: 'BFerdosi';
+    src: url('/fonts/BFerdosi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+  font-family: "Vazirmatn","Rubik";
+  box-sizing: border-box;
+}
+/* Scrollbar track (the white background) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* The part that moves (the gray line) */
+::-webkit-scrollbar-thumb {
+  background-color: #aaa;  /* light gray thumb */
+  border-radius: 4px;
+}
+
+/* Track background */
+::-webkit-scrollbar-track {
+  background: #fff;  /* white track */
+}
+

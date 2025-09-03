@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer components {
+  .socials {
+    @apply bg-red-600 w-28 h-12 flex items-center justify-center rounded-lg;
+  }
+
+  ul a {
+    @apply flex flex-row-reverse gap-1 items-center justify-center;
+  }
+  .social-links {
+    @apply flex w-16 h-16;
+  }
+
+  .gallery-items div{
+    @apply flex items-center justify-center border border-gray-200 rounded-lg p-1;
+  }
+  .sell-features{
+    @apply flex items-center justify-between p-1 ;
+  }
+  .sell-features div{
+    @apply flex items-center justify-center gap-4  p-1 text-gray-500 text-sm;
+  }
+  .sell-features img{
+    @apply w-12 h-12;
+  }
+  .profile-identify > div{
+    @apply border-t border-gray-200 h-24 flex justify-between items-center px-6 mx-1.5;
+  }
+  .profile-identify > div:nth-child(1){
+    @apply border-none h-24 flex justify-between items-center px-6 mx-1.5;
+  }
+  .profile-identify > div > div > p:nth-child(1){
+    @apply text-gray-400 text-sm mb-2;
+  }
+  .profile-identify > div > div > p:nth-child(2){
+    @apply font-medium text-[16px];
+  }
+}
+

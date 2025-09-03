@@ -1,0 +1,23 @@
+.dropdown{
+position: relative;
+/* display:; */
+cursor: pointer;
+
+}
+.dropdown-content{
+display: none;
+position: absolute;
+background-color: white;
+border-radius: 6px;
+width: 15rem;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 5000;
+top: 1.6rem;
+}
+.dropdown:hover .dropdown-content{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 8px;
+
+}
